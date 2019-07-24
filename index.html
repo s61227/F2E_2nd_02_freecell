@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>FreeCell</title>
+    <link href="https://fonts.googleapis.com/css?family=Lato:400,700,900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="css/all.css">
+</head>
+<body>
+    <div class="container">
+        <main>
+            <section class="l-topBlock h-d-flex h-justify-content-between h-align-items-center">
+                <ul class="l-topBlock__storage h-d-flex">
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                </ul>
+                <div class="l-gameStatus">
+                    <img src="images/king_happy.png">
+                    <p>FREECELL</p>
+                </div>
+                <ul class="l-topBlock__sort h-d-flex">
+                    <li><img src="images/S.png"></li>
+                    <li><img src="images/H.png"></li>
+                    <li><img src="images/D.png"></li>
+                    <li><img src="images/C.png"></li>
+                </ul>
+            </section>
+            <section class="l-cards h-d-flex h-justify-content-between">
+                <ul>
+                    <li><img src="images/cards_background/C1.png"></li>
+                    <li><img src="images/cards_background/C1.png"></li>
+                    <li><img src="images/cards_background/C1.png"></li>
+                </ul>
+                <ul>
+                    <li><img src="images/cards_background/H1.png"></li>
+                    <li><img src="images/cards_background/H1.png"></li>
+                    <li><img src="images/cards_background/H1.png"></li>
+                </ul>
+                <ul>
+                    <li><img src="images/cards_background/C1.png"></li>
+                    <li><img src="images/cards_background/C1.png"></li>
+                    <li><img src="images/cards_background/C1.png"></li>
+                </ul>
+                <ul>
+                    <li><img src="images/cards_background/C1.png"></li>
+                    <li><img src="images/cards_background/C1.png"></li>
+                    <li><img src="images/cards_background/C1.png"></li>
+                </ul>
+                <ul>
+                    <li><img src="images/cards_background/C1.png"></li>
+                    <li><img src="images/cards_background/C1.png"></li>
+                    <li><img src="images/cards_background/C1.png"></li>
+                </ul>
+                <ul>
+                    <li><img src="images/cards_background/C1.png"></li>
+                    <li><img src="images/cards_background/C1.png"></li>
+                    <li><img src="images/cards_background/C1.png"></li>
+                </ul>
+                <ul>
+                    <li><img src="images/cards_background/C1.png"></li>
+                    <li><img src="images/cards_background/C1.png"></li>
+                    <li><img src="images/cards_background/C1.png"></li>
+                </ul>
+                <ul>
+                    <li><img src="images/cards_background/C1.png"></li>
+                    <li><img src="images/cards_background/C1.png"></li>
+                    <li><img src="images/cards_background/C1.png"></li>
+                </ul>
+            </section>
+        </main>
+        <nav class="h-d-flex">
+            <div class="col-5 h-d-flex h-align-items-center">
+                <div class="l-logo">
+                    <img src="images/info.svg">
+                </div>
+                <p>TIME: 00:00</p>
+                <p>SCORE: 0</p>
+            </div>
+            <div class="col-7 l-menu">
+                <button>NEW GAME</button>
+                <button>RESTART</button>
+                <button>HINT</button>
+                <button>UNDO</button>
+            </div>
+        </nav>
+    </div>
+    <div class="l-overlay h-d-flex h-justify-content-center h-align-items-center">
+        <div class="l-message">
+            <div class="l-message__close">
+                <i class="material-icons">close</i>
+            </div>
+            <div class="l-message__content">
+                <img src="images/king_sad.png">
+                <h1>NO MORE MOVES</h1>
+                <p>There are no moves available.</p>
+                <div>
+                    <button>NEW GAME</button>
+                    <button>RESTART</button>
+                    <button>UNDO</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+<!-- jsDelivr :: Sortable :: Latest (https://www.jsdelivr.com/package/npm/sortablejs) -->
+<script src="https://cdn.jsdelivr.net/npm/sortablejs@latest/Sortable.min.js"></script>
+</html>
