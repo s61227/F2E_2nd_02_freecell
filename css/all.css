@@ -1264,6 +1264,9 @@ html, body {
 .container {
   height: 100%; }
 
+.js-container-active {
+  overflow: hidden; }
+
 main {
   margin: 0 85px; }
 
@@ -1304,17 +1307,88 @@ main {
     .l-cards li:hover {
       border: 2px solid #FFB53E;
       border-radius: 5px; }
-    .l-cards li:nth-of-type(1) {
-      top: 0;
-      z-index: 1; }
-    .l-cards li:nth-of-type(2) {
-      top: 25px;
-      z-index: 2; }
-    .l-cards li:nth-of-type(3) {
-      top: 50px;
-      z-index: 3; }
   .l-cards img {
     width: 95px; }
+
+.l-cards-1 {
+  top: 0px;
+  z-index: 1; }
+
+.l-cards-2 {
+  top: 25px;
+  z-index: 2; }
+
+.l-cards-3 {
+  top: 50px;
+  z-index: 3; }
+
+.l-cards-4 {
+  top: 75px;
+  z-index: 4; }
+
+.l-cards-5 {
+  top: 100px;
+  z-index: 5; }
+
+.l-cards-6 {
+  top: 125px;
+  z-index: 6; }
+
+.l-cards-7 {
+  top: 150px;
+  z-index: 7; }
+
+.l-cards-8 {
+  top: 175px;
+  z-index: 8; }
+
+.l-cards-9 {
+  top: 200px;
+  z-index: 9; }
+
+.l-cards-10 {
+  top: 225px;
+  z-index: 10; }
+
+.l-cards-11 {
+  top: 250px;
+  z-index: 11; }
+
+.l-cards-12 {
+  top: 275px;
+  z-index: 12; }
+
+.l-cards-13 {
+  top: 300px;
+  z-index: 13; }
+
+.l-cards-14 {
+  top: 325px;
+  z-index: 14; }
+
+.l-cards-15 {
+  top: 350px;
+  z-index: 15; }
+
+.l-cards-16 {
+  top: 375px;
+  z-index: 16; }
+
+.l-cards-17 {
+  top: 400px;
+  z-index: 17; }
+
+.l-cards-18 {
+  top: 425px;
+  z-index: 18; }
+
+.l-cards-19 {
+  top: 450px;
+  z-index: 19; }
+
+.l-cards-20 {
+  top: 475px;
+  z-index: 20; }
 
 nav {
   padding: 20px 0;
@@ -1360,6 +1434,11 @@ button {
   width: 100%;
   height: 100%;
   z-index: 1000; }
+
+.js-overlay-active {
+  display: -webkit-box !important;
+  display: -ms-flexbox !important;
+  display: flex !important; }
 
 .l-message {
   width: 600px;
